@@ -73,19 +73,19 @@ def main():
         resp = str(res)
         if resp == '<Response [204]>':
             print(bar)
-            print("\n\033[1;32;40m [+] No Data ... [+]")
+            print("\n\033[1;32;40m [+].... No data ....[+]")
             print(bar)
         elif resp == '<Response [200]>':
             print(bar)
-            print("\n\033[1;32;40m [+] ඩෙටා එනො ... [+]")
+            print("\n\033[1;32;40m [+]....you won....[+]")
             print(bar)
         else:
             print(bar)
-            print("\n\033[1;31;40m [+] උබව බ්ලොක් කරා🤪... [+]")
+            print("\n\033[1;31;40m [+]...user block...[+]")
             print(bar)
 
         ss+=1
-        print("\033[1;0;40m\n",str(ss), "ඉලග එක යනකන් ඉදපන් මෙකෙ ඩෙටා නැ මිනිහො",end="")
+        print("\033[1;0;40m\n",str(ss), "try agean next time",end="")
         for i in range(180):
 
             pr = i/180*100
